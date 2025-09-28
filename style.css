@@ -1,0 +1,55 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    color: #e67e22;
+}
+
+#game-container {
+    display: flex;
+    border: 3px solid #e67e22;
+    border-radius: 8px;
+    background-color: #34495e;
+}
+
+canvas {
+    background-color: #8b4513; /* Dirt path color */
+    display: block;
+}
+
+#ui-panel {
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tower-button, #start-wave-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #e67e22;
+    background-color: #34495e;
+    color: #ecf0f1;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.tower-button:hover, #start-wave-btn:hover {
+    background-color: #e67e22;
+    color: #2c3e50;
+}
+
+#game-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
