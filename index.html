@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane Bastion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Arcane Bastion</h1>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="ui-panel">
+            <h2>Controls</h2>
+            <div id="tower-selection">
+                <button id="fire-tower-btn" class="tower-button">Fire Tower (100g)</button>
+                <button id="ice-tower-btn" class="tower-button">Ice Tower (120g)</button>
+            </div>
+            <div id="game-info">
+                <p>Gold: <span id="gold"></span></p>
+                <p>Health: <span id="health"></span></p>
+                <p>Wave: <span id="wave"></span></p>
+            </div>
+            <button id="start-wave-btn">Start Next Wave</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
